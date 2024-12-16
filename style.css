@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #ffffff;
+}
+
+header {
+    background: black;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background: black;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilização da imagem da empresa */
+img {
+    width: 700px; /* Largura da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    margin: 20px 0; /* Margem acima e abaixo da imagem */
+    transition: transform 0.3s; /* Transição suave para o efeito de hover */
+}
+
+/* Efeito de hover */
+img:hover {
+    transform: scale(1.05); /* Aumenta a imagem em 5% ao passar o mouse */
+}
+
+footer {
+    background:black;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
